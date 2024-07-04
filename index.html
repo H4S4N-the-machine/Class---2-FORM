@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML FORM</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;"> Students Course Enrollment Form </h1> <br> <br>
+        <form style="text-align: center">
+            <label for="fname">First Name : </label>
+            <input
+              type="text"
+              id="fname"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder="contains only letter"
+              required
+            />
+            <br />
+            <br />
+            <label for="Last Name">Last Name : </label>
+            <input
+              type="text"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder="contains only letter"
+              required
+            />
+            <br />
+            <br />
+            <label for="Username"> Username : </label>
+            <input
+              type="text"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder="only letters & numbers"
+              required
+            />
+            <br />
+            <br />
+            <label for="E-mail">E-mail : </label>
+            <input
+              type="email"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder=" Enter Your E-mail"
+              required
+            />
+            <br />
+            <br />
+            <label for="Password"> Password : </label>
+            <input
+              type="password"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder=" Enter Your password"
+              required
+              maxlength="12"
+              minlength="8"
+            />
+            <br />
+            <br />
+            <label for="Phone Number"> Phone Number: </label>
+            <input
+              type="number"
+              style="background-color: rgb(137, 226, 226)"
+              placeholder=" Your phone number"
+              required
+            />
+            <br />
+            <br />
+            <label for="Date-of Birth"> Date-of Birth : </label>
+            <input
+              type="datetime-local"
+              style="background-color: rgb(137, 226, 226)"
+              required
+            />
+            <br />
+            <br />
+            <label for="Month"> Enrolling Month </label>
+            <input type="month" style="background-color: rgb(137, 226, 226)"
+            required>
+            <h2> Your hobbies </h2>
+            <label for="garden"> Gardening </label>
+            <input type="checkbox" id="garden">
+            <label for="read"> Reading </label>
+            <input type="checkbox" id="raed">
+            <label for="travel"> Travelling  </label>
+            <input type="checkbox" id="travel"><br><br> 
+            <h2> Select Your Religion</h2>
+            <label for="Islami">Islam</label>
+            <input name="status" type="radio" id="Islami">
+            <label for="Hinduist">Hindu</label>
+            <input name="status"  type="radio" id="Hinduist">
+            <label for="Buddha">Buddist</label>
+            <input name="status"  type="radio" id="Buddha">
+            <label for="Christianity">Christian</label>
+            <input name="status"  type="radio" id="Christianity"> <br> <br>
+            <button><b>Submit</b></button>
+            <button> <b>Reset </b></button>
+          </form>
+    </div>
+  </body>
+</html>
